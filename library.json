@@ -1,0 +1,150 @@
+{
+    "name": "xerces-c",
+    "version": "3.2.3",
+    "description": "Xerces-C++ is a validating XML parser written in a portable subset of C++. Xerces-C++ makes it easy to give your application the ability to read and write XML data. A shared library is provided for parsing, generating, manipulating, and validating XML documents.",
+    "keywords": "xerces,xercesc,xerces-c,xml,xml parser,xml validator,xml generator,xml manipulating",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/OpenOxyhydrogenResearch/xerces-c.git"
+    },
+    "authors": [
+        {
+            "name": "Boris Kolpackov",
+            "email": "boris@kolpackov.net",
+            "maintainer": true
+        },
+        {
+            "name": "Tinny Ng",
+            "email": "tng@apache.org",
+            "maintainer": true
+        },
+        {
+            "name": "Gareth Reakes",
+            "email": "gareth@apache.org",
+            "maintainer": true
+        },
+        {
+            "name": "Neil Graham",
+            "email": "neilg@apache.org",
+            "maintainer": true
+        }
+    ],
+    "license": "Apache-2.0",
+    "homepage": "http://xerces.apache.org/xerces-c/",
+    "frameworks": "*",
+    "platforms": "*",
+    "examples": [
+        {
+            "name": "CreateDOMDocument",
+            "base": "samples/src/CreateDOMDocument",
+            "files": [
+                "*"
+            ]
+        },
+        {
+            "name": "DOMCount",
+            "base": "samples/src/DOMCount",
+            "files": [
+                "*"
+            ]
+        },
+        {
+            "name": "DOMPrint",
+            "base": "samples/src/DOMPrint",
+            "files": [
+                "*"
+            ]
+        },
+        {
+            "name": "EnumVal",
+            "base": "samples/src/EnumVal",
+            "files": [
+                "*"
+            ]
+        },
+        {
+            "name": "MemParse",
+            "base": "samples/src/MemParse",
+            "files": [
+                "*"
+            ]
+        },
+        {
+            "name": "PParse",
+            "base": "samples/src/PParse",
+            "files": [
+                "*"
+            ]
+        },
+        {
+            "name": "PSVIWriter",
+            "base": "samples/src/PSVIWriter",
+            "files": [
+                "*"
+            ]
+        },
+        {
+            "name": "Redirect",
+            "base": "samples/src/Redirect",
+            "files": [
+                "*"
+            ]
+        },
+        {
+            "name": "SAX2Count",
+            "base": "samples/src/SAX2Count",
+            "files": [
+                "*"
+            ]
+        },
+        {
+            "name": "SAX2Print",
+            "base": "samples/src/SAX2Print",
+            "files": [
+                "*"
+            ]
+        },
+        {
+            "name": "SAXCount",
+            "base": "samples/src/SAXCount",
+            "files": [
+                "*"
+            ]
+        },
+        {
+            "name": "SAXPrint",
+            "base": "samples/src/SAXPrint",
+            "files": [
+                "*"
+            ]
+        },
+        {
+            "name": "SCMPrint",
+            "base": "samples/src/SCMPrint",
+            "files": [
+                "*"
+            ]
+        },
+        {
+            "name": "SEnumVal",
+            "base": "samples/src/SEnumVal",
+            "files": [
+                "*"
+            ]
+        },
+        {
+            "name": "StdInParse",
+            "base": "samples/src/StdInParse",
+            "files": [
+                "*"
+            ]
+        },
+        {
+            "name": "XInclude",
+            "base": "samples/src/XInclude",
+            "files": [
+                "*"
+            ]
+        }
+    ]
+}
