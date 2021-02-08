@@ -1,0 +1,36 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "c:/Users/The_E/OneDrive/Documents/PlatformIO/Projects/xsde-3.2.0-1+dep/xerces-c-3.2.3/.pio/build/sainSmartDue/firmware.elf",
+            "projectEnvName": "sainSmartDue",
+            "toolchainBinDir": "C:/Users/The_E/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "svdPath": "C:/Users/The_E/.platformio/platforms/atmelsam/misc/svd/ATSAM3X8E.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug (sainSmartDue)"
+            },
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "c:/Users/The_E/OneDrive/Documents/PlatformIO/Projects/xsde-3.2.0-1+dep/xerces-c-3.2.3/.pio/build/sainSmartDue/firmware.elf",
+            "projectEnvName": "sainSmartDue",
+            "toolchainBinDir": "C:/Users/The_E/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "svdPath": "C:/Users/The_E/.platformio/platforms/atmelsam/misc/svd/ATSAM3X8E.svd",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
